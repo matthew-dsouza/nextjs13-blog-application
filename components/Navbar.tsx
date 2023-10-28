@@ -32,12 +32,12 @@ export default function Navbar() {
     <div className="flex justify-between pb-4 border-b mb-4 relative">
       <div>
         <Link href={"/"}>
-          <h1 className="text-dark text-4xl font-bold tracking-tighter">
-            Tech News
+          <h1 className="text-dark text-4xl font-semibold tracking-tighter">
+            webstyl
           </h1>
         </Link>
         <p className="text-sm">
-          Exploring Tomorrow's Innovations, <br /> One Byte at a Time.
+          Exploring Tomorrow's Innovations, <br /> One Blog at a Time.
         </p>
       </div>
 
@@ -98,7 +98,7 @@ export default function Navbar() {
               width={36}
               height={36}
               alt="Profile image"
-              className="rounded-full cursor-pointer"
+              className="rounded-full cursor-pointer nav-profile-image"
               onClick={() => setIsPopupVisible((prev) => !prev)}
             />
           </div>
