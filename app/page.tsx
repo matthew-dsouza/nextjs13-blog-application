@@ -25,7 +25,7 @@ export default async function Home() {
     <>
       <CategoriesList />
       {posts && posts.length > 0 ? (
-        posts.map((post) => (
+        posts.map((post: TPost) => (
           <Post
             key={post.id}
             id={post.id}

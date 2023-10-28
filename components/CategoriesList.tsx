@@ -24,7 +24,7 @@ export default async function CategoriesList() {
         categories.map((category) => (
           <Link
             className="px-4 py-1 rounded-md bg-slate-800 text-white cursor-pointer"
-            href={`/category/${category.catName}`}
+            href={`/categories/${category.catName}`}
           >
             {category.catName}
           </Link>
