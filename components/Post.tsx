@@ -107,7 +107,7 @@ export default async function Post({
       {isEditable && (
         <div className="flex gap-5 font-bold py-2 px-4 rounded-md bg-slate-200 w-fit">
           <Link href={`/edit-post/${id}`}>Edit</Link>
-          <DeleteButton />
+          <DeleteButton id={id} />
         </div>
       )}
     </div>
