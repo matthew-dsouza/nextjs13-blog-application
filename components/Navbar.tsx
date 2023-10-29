@@ -37,7 +37,7 @@ export default function Navbar() {
           </h1>
         </Link>
         <p className="text-sm">
-          Exploring Tomorrow's Innovations, <br /> One Blog at a Time.
+          Exploring Tomorrow&apos;s Innovations, <br /> One Blog at a Time.
         </p>
       </div>
 
