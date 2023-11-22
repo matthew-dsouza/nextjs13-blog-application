@@ -53,7 +53,7 @@ export default async function Post({
         )}
       </div>
 
-      <div className="w-full h-72 relative">
+      <div className="w-full h-60 lg:h-72 relative">
         {thumbnail ? (
           <Image
             src={thumbnail}
