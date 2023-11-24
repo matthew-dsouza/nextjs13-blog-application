@@ -32,7 +32,7 @@ export default function Navbar() {
     <div className="flex justify-between pb-4 border-b mb-4 relative">
       <div>
         <Link href={"/"}>
-          <h1 className="text-dark text-4xl font-semibold tracking-tighter">
+          <h1 className="header-logo text-4xl font-semibold tracking-tighter">
             webstyl
           </h1>
         </Link>

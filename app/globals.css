@@ -2,11 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-.btn {
-  @apply bg-slate-200 px-4 py-2 rounded-md font-semibold hover:scale-105 transition;
-}
-
 body {
+  background: #bdc3c7;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2c3e50, #bdc3c7);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* -------------- */
   /* -------------- */
   /* -------------- */
@@ -15,6 +17,19 @@ body {
   -moz-user-select: -moz-none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.header-logo {
+  background-color: #0093e9;
+
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.btn {
+  @apply bg-slate-200 px-4 py-2 rounded-md font-semibold hover:scale-105 transition;
 }
 
 img {
@@ -32,10 +47,10 @@ h2 {
 p.content {
   @apply leading-loose;
   display: -webkit-box;
-    -webkit-line-clamp: 4;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .link {
